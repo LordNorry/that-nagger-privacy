@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for That NAGGER Android app">
+  <title>That NAGGER Privacy Policy</title>
+  <style>
+    :root { color-scheme: dark light; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #10151c;
+      color: #e8edf3;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    header {
+      border-bottom: 1px solid #34404d;
+      margin-bottom: 28px;
+      padding-bottom: 18px;
+    }
+    h1, h2 { line-height: 1.25; }
+    h1 { margin-bottom: 6px; }
+    h2 { margin-top: 30px; }
+    a { color: #8bc4ff; }
+    .muted { color: #aeb8c3; }
+    .contact {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border: 1px solid #34404d;
+      border-radius: 12px;
+      background: #171e27;
+    }
+    ul { padding-left: 22px; }
+    footer {
+      margin-top: 40px;
+      padding-top: 18px;
+      border-top: 1px solid #34404d;
+      color: #aeb8c3;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>That NAGGER Privacy Policy</h1>
+    <div class="muted">Last updated: September 2, 2026</div>
+    <div class="contact">
+      Privacy and support contact: <a href="mailto:that.nagger.app@gmail.com">that.nagger.app@gmail.com</a><br>
+      General support information: <a href="support.html">That NAGGER Support</a>
+    </div>
+  </header>
+
+  <p>That NAGGER is designed to keep reminder data on the user's device and to avoid unnecessary collection, tracking, accounts, advertising identifiers, analytics, and advertising.</p>
+
+  <h2>Information stored locally</h2>
+  <p>That NAGGER stores Nags, schedules, notes, labels, History, Statistics inputs, notification settings, theme settings, app preferences, and other app configuration locally on the Android device.</p>
+  <p>Optional App Security PIN and biometric configuration is device-local. That NAGGER does not transmit the user's PIN or biometric data. Android performs biometric authentication through the operating system.</p>
+  <p>Optional device-calendar synchronization uses Android's Calendar Provider. That NAGGER reads available writable calendars and creates or updates selected Nag events on the device. Nag notes and labels are not exported to calendar events, and privacy settings are respected. If the user's calendar provider synchronizes its calendar to a cloud service, that synchronization is controlled by the calendar provider or account, not by That NAGGER.</p>
+  <p>Optional custom notification-sound files remain referenced through Android's Storage Access Framework and are not uploaded by That NAGGER.</p>
+
+  <h2>Backups</h2>
+  <p>That NAGGER disables Android automatic app-data backup for its own data. The app instead provides explicit user-controlled Backup &amp; restore.</p>
+  <p>A user may choose a plain portable backup or a password-protected portable backup. Protected backups use AES-256-GCM with a key derived from the user's passphrase using PBKDF2-HMAC-SHA256. The passphrase is not stored in the backup. The user chooses where backup files are saved through Android's Storage Access Framework.</p>
+
+  <h2>Feedback</h2>
+  <p>The optional Send Feedback feature transmits only the information the user chooses to submit:</p>
+  <ul>
+    <li>feedback category;</li>
+    <li>feedback message;</li>
+    <li>optional reply email address;</li>
+    <li>optional app version/build, Android version, and device manufacturer/model.</li>
+  </ul>
+  <p>Feedback is sent over HTTPS to the That NAGGER feedback service hosted on Cloudflare and is then stored as a private development issue in GitHub. No advertising ID, Android ID, serial number, account identifier, or other persistent unique device identifier is intentionally collected by That NAGGER's feedback feature.</p>
+  <p>Cloudflare necessarily receives ordinary network connection information while handling the HTTPS request. The That NAGGER feedback Worker uses the connection IP only to derive a short-lived one-way hash for basic rate limiting. The raw IP address and rate-limit hash are not included in the private GitHub feedback issue.</p>
+  <p>Feedback and an optional reply email may be retained as long as reasonably useful for development, support, abuse prevention, or recordkeeping. A user may request deletion of a feedback submission through Send Feedback → Other or by emailing <a href="mailto:that.nagger.app@gmail.com">that.nagger.app@gmail.com</a> and providing enough information to identify the submission.</p>
+
+  <h2>Google Play purchases</h2>
+  <p>The optional Small, Medium, and Large Thank You purchases are processed by Google Play Billing. That NAGGER receives the purchase state and token information needed to complete and consume the purchase and increments local Thank You counters after successful consumption. That NAGGER does not receive or store the user's payment-card details.</p>
+  <p>Thank You purchases do not unlock features, remove ads, create subscriptions, or change app functionality.</p>
+
+  <h2>Information That NAGGER does not use</h2>
+  <p>That NAGGER does not include third-party advertising, behavioral advertising, analytics SDKs, social tracking, or an app account system. It does not intentionally collect location, contacts, photos, microphone recordings, browsing history, advertising IDs, or persistent device fingerprints.</p>
+
+  <h2>Permissions</h2>
+  <p>That NAGGER may request Android permissions or special access for notifications, exact alarms, Calendar access, and biometric authentication when the user chooses functionality that requires them. Permission state is controlled by Android and can be changed in system settings.</p>
+
+  <h2>Data retention and deletion</h2>
+  <p>Because That NAGGER does not create user accounts or maintain a cloud copy of ordinary Nag data, uninstalling the app removes ordinary local app data subject to Android and device behavior. User-created backup files remain wherever the user chose to save them until the user deletes those files.</p>
+  <p>For feedback stored by the developer, request deletion through Send Feedback → Other or email <a href="mailto:that.nagger.app@gmail.com">that.nagger.app@gmail.com</a> and provide enough information to identify the feedback submission.</p>
+
+  <h2>Security</h2>
+  <p>That NAGGER uses HTTPS for transmitted feedback, keeps ordinary reminder data local to the device, and uses Android platform mechanisms for permissions, biometric authentication, file access, and Google Play Billing. Password-protected backups use authenticated encryption as described above.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>This policy may be updated when That NAGGER's features or data practices change. The current Google Play version should always link to a policy matching the behavior of that release.</p>
+
+  <h2>Privacy contact</h2>
+  <p>Privacy questions, support requests, and data-deletion inquiries may be sent to <a href="mailto:that.nagger.app@gmail.com">that.nagger.app@gmail.com</a>.</p>
+
+  <footer>
+    That NAGGER · Privacy Policy
+  </footer>
+</main>
+</body>
+</html>
